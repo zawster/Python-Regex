@@ -1,6 +1,6 @@
 import re
 
-# with open('logs.txt') as file:
+# with open('logs.log') as file:
 #     logs = [ line[:-2] for line in file.readlines()[:20]]
 # pattern = r'[0-9\@\#\$\%\*\(\)\-\'\:\/\.\[\]]'
 # # pattern = r'[a-zA-Z]'
