@@ -2,35 +2,52 @@
 Regular expressions using re Python module
 
 
-# .      
+## .      
 > Any Character Except New Line
 
-# \d
+## \d
 > Digit (0-9)
 
-# \D
+## \D
 > Not a Digit (0-9)
 
-\w      - Word Character (a-z, A-Z, 0-9, _)
+## \w     
+> Word Character (a-z, A-Z, 0-9, _)
 
-\W      - Not a Word Character
+## \W
+> Not a Word Character
 
-\s      - Whitespace (space, tab, newline)
-\S      - Not Whitespace (space, tab, newline)
+## \s
+> Whitespace (space, tab, newline)
+## \S
+> Not Whitespace (space, tab, newline)
 
-\b      - Word Boundary
-\B      - Not a Word Boundary
-^       - Beginning of a String
-$       - End of a String
+## \b
+> Word Boundary
+## \B
+> Not a Word Boundary
+## ^
+> Beginning of a String
+## $
+> End of a String
 
-[]      - Matches Characters in brackets
-[^ ]    - Matches Characters NOT in brackets
-|       - Either Or
-( )     - Group
+## []
+> Matches Characters in brackets
+## [^ ]
+> Matches Characters NOT in brackets
+## |
+> Either Or
+## ( )
+> Group
 
 ### Quantifiers:
-*       - 0 or More
-+       - 1 or More
-?       - 0 or One
-{3}     - Exact Number
-{3,4}   - Range of Numbers (Minimum, Maximum)
+## *
+> 0 or More
+## +
+> 1 or More
+## ?
+> 0 or One
+## {3}
+> Exact Number
+## {3,4}
+> Range of Numbers (Minimum, Maximum)
